@@ -1,14 +1,13 @@
-<?php
-$servername = '127.0.0.1:3306';
-$username = 'sarfraj';
-$password = 'sarf@123';
+<?php 
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+  
+// Credentials required for connection 
+$username = "root";
+$password = "sarf@123";
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
+$pdo = new PDO('mysql:host=host; dbname=mysql; charset=utf8', 
+
+            'username', 'password');  
+
+  
+?> 

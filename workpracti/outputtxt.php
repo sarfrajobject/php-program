@@ -1,0 +1,5 @@
+<?php
+
+echo "Somthing txt";
+
+?>
