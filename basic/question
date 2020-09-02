@@ -1,26 +1,31 @@
-1. 2 Array merge
-2. STRpos
-3. magic method 
-4. scrript time calculate 
-5. get method limition
-6.post limit
-7.post liitions 
+1. 2 Array merge /
+2. strpos /
+3. magic method /
+4. scrript time calculate /
+5. get method limition /2048
+6.post limit / post maximum size 21m 
+10. file upload how /    multipart/form-data with enctype tag 
+7.
 8.file upload program
-9. post file size increement
-10. file upload how
-11.  session start stop   
+9. post file size increement /upload_max_filesize = 20M
+							/post_max_size =20M
+
+11.  session start stop   /
 12. assoiate keys value by method 
-13. str replace
 14. fatch data in assoiative array and object 
+13. str replace /
 15. uppercase  /
 16. lower case function   /
-17. how to check sb string exicts in string 
-18. word counter 
+17. how to check sub string exicts in string /
+18. word counter /
 19. charecter counte
 20.if else ka shot form
-21.varibles of varibles 
-22.space shif opretor 
-23.how to enable erore show in program 
-24.how to calculate execution time 
-25.how to open tag in php in short
-26. how to check value array in excts
+21.varibles of varibles 				   /A variable variable takes the value of a variable and treats that as the name of a 												variable
+22.Spaceship Operator                    /<=>
+23.how to enable erore show in program  / 1.display_errors = on
+										  2.ini_set('display_errors', 1); 
+											ini_set('display_startup_errors', 1); 
+											error_reporting(E_ALL);		
+26.how to check value array in excts   / inarray ("find", $array);
+24.how to calculate execution time    /  Ans:microtime(true)
+25.how to open tag in php in short   / short_open_tag

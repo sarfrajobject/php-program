@@ -1,7 +1,16 @@
 <?php
 
-$myfile = fopen("index.txt", "w") or die("Unable to open file!");
-echo fread($myfile,filesize("index.txt"));
-fclose($myfile);
+$myfile = fopen("index.txt", "r");
+
+
+
+if ($myfile){
+	echo "file open sucess ";
+}
+
+
+else {
+	echo "file not found !";
+}
 
 ?>
