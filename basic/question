@@ -5,7 +5,7 @@
 5. get method limition /2048
 6.post limit / post maximum size 21m 
 10. file upload how /    multipart/form-data with enctype tag 
-7.
+7. var dump
 8.file upload program
 9. post file size increement /upload_max_filesize = 20M
 							/post_max_size =20M

@@ -1,15 +1,13 @@
 <?php
 
 class Book{
-	var $title ;
-	var $author = Sarfraj;
-	var $page;
+
+ public $name ="Sarfraj Malik"; 
 }
 
 
+$object = new Book;
 
-$book = new Book;
-echo $book->author;
-// echo "Hello Mr Sarfraj";
+echo $object-> name;
 
 ?>
