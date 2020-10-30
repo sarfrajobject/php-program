@@ -2,6 +2,6 @@
 
 session_start();
 
-echo "Name : ".$_SESSION['name'];
+echo $_SESSION['name'];
 
 ?>

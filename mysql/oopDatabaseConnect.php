@@ -1,25 +1,19 @@
-<?php
+<?php 
 
-class Database{
-	private $host = 'sql9.freemysqlhosting.net';
-	private $user = 'sql9360982';
-	private $pwd = 'PnxkixBbGe';
-	private $dbname = 'myblog';
+ini_set("display_errors",1);
 
-	private $dbh;
-	private $error;
-	private $stmt;
+$host = "localhost";
+$username = "root";
+$password = "devil@123";
 
 
-	public function  __construct(){
-		$dsn = 'mysql:host'. $this -> host . ';dbname=' .$this->dbname;
-		$option = array(
-			PDO::ATTR_PERSISTENT => true,
-			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-		);
-	}
+$conn = new mysqli ($host, $username, $password);
 
+if($conn->connect_error){
+
+	die("connection error".$conn->connect_error);
 
 }
+echo "connect susscfully";
 
 ?>

@@ -1,6 +1,8 @@
 <?php
 
 
-echo __file__;
+echo __file__."<br>";
+echo getcwd();
+
 
 ?>

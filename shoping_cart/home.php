@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,6 +61,14 @@ include "navbar.html";
   <p class="price">$19.99</p>
   <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
   <p><button>Add to Cart</button></p>
+  <?php
+  if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+    echo "Welcome to the member's area, " . $_SESSION['username'] . "!";
+} else {
+    echo "Please log in first to see this page.";
+}
+
+  ?>
 </div>
 </body>
 </html>
